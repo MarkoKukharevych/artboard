@@ -2,3 +2,47 @@
     font-family: 'Roboto';
     font-weight: 700;
 }
+
+/* promo */
+
+.promo {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/desk-header.jpg') no-repeat center;
+}
+
+.promo__logo {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.promo__registration-list {
+    display: flex;
+    gap: 3px;
+}
+
+.promo__registration-item {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    width: 80px;
+}
+
+.promo__hero-list {}
+
+.promo__hero-item {}
+
+.promo__hero-title {}
+
+.promo__hero-subtitle {}
+
+.promo__hero-button {}
