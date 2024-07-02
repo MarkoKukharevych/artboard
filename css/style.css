@@ -10,7 +10,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./images/desk-header.jpg') no-repeat center;
+    background: url('../images/promo/desk-header.jpg') no-repeat center;
+}
+
+.div__promo {
+    flex-direction: column;
+}
+
+.div__registration {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-right: 250px;
 }
 
 .promo__logo {
@@ -21,11 +32,18 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    width: 208px;
+    height: 24px;
+    margin-right: 580px;
+    margin-top: -200px;
+    margin-left: 250px;
 }
 
 .promo__registration-list {
     display: flex;
     gap: 3px;
+    margin-top: -200px;
+    height: 17px;
 }
 
 .promo__registration-item {
@@ -37,12 +55,47 @@
     width: 80px;
 }
 
-.promo__hero-list {}
+.promo__registration-bordered {
+    border-radius: 20px;
+    border-color: #FFF;
+}
+
+.promo__hero-list {
+    margin-left: 466px;
+    margin-right: 466px;
+}
 
 .promo__hero-item {}
 
-.promo__hero-title {}
+.promo__hero-title {
+    width: 508px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
-.promo__hero-subtitle {}
+.promo__hero-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 36px;
+    margin-bottom: 33px;
+}
 
-.promo__hero-button {}
+.promo__hero-button {
+    width: 228px;
+    height: 43px;
+    background-color: #FF4E50;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-left: 140px;
+}

@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-ball1" viewBox="0 0 32 32">
+<path fill="#ff4e50" style="fill: var(--color1, #ff4e50); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M30.4 16c0-7.953-6.447-14.4-14.4-14.4s-14.4 6.447-14.4 14.4 6.447 14.4 14.4 14.4c7.953 0 14.4-6.447 14.4-14.4z"></path>
+</symbol>
+<symbol id="icon-ball2" viewBox="0 0 32 32">
+<path fill="#1cd7ad" style="fill: var(--color3, #1cd7ad); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M30.4 16c0-7.953-6.447-14.4-14.4-14.4s-14.4 6.447-14.4 14.4c0 7.953 6.447 14.4 14.4 14.4s14.4-6.447 14.4-14.4z"></path>
+</symbol>
+<symbol id="icon-ball3" viewBox="0 0 32 32">
+<path fill="#ffa507" style="fill: var(--color4, #ffa507); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.122" d="M30.415 16.366c0-7.76-6.297-14.049-14.061-14.049s-14.061 6.288-14.061 14.049c0 7.76 6.297 14.049 14.061 14.049s14.061-6.288 14.061-14.049z"></path>
+</symbol>
+<symbol id="icon-ball4" viewBox="0 0 32 32">
+<path fill="#4e73db" style="fill: var(--color5, #4e73db); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.122" d="M30.415 16.366c0-7.76-6.297-14.049-14.061-14.049s-14.061 6.288-14.061 14.049c0 7.76 6.297 14.049 14.061 14.049s14.061-6.288 14.061-14.049z"></path>
+</symbol>
+</defs>
+</svg>
