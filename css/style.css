@@ -55,10 +55,15 @@
     width: 80px;
 }
 
-.promo__registration-bordered {
+#second {
+    display: block;
+    border: 2px solid #FFF;
     border-radius: 20px;
-    border-color: #FFF;
+    width: 93px;
+    height: 39px;
 }
+
+.promo__registration-link {}
 
 .promo__hero-list {
     margin-left: 466px;
@@ -98,4 +103,88 @@
     font-weight: 700;
     border-radius: 20px;
     margin-left: 140px;
+}
+
+/* partners */
+
+.partners {
+    margin: 70px 263px;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__title {
+    color: #333;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.team__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+.team__list-item {
+    position: relative;
+    gap: 26px;
+    text-align: center;
+}
+
+.team__photo {
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+}
+
+.team__svg {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 145px;
+    bottom: 80px;
+}
+
+.img__svg {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 155px;
+    bottom: 89px;
+}
+
+.team__name {
+    color: #333;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.team__subtitle {
+    width: 250px;
+    color: #666;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.partners__button {
+    width: 195px;
+    height: 43px;
+    background-color: #FFF;
+    border: 2px solid #FF4E50;
+    border-radius: 20px;
+    color: #FF4E50;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 37px;
+    margin-left: 580px;
 }
