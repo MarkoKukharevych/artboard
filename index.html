@@ -12,37 +12,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:wght@300;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <header class="promo">
-        <div class="div__promo">
-            <div class="div__registration">
-                <h2 class="promo__logo">URLAUBSGLÜCK</h2>
-                <ul class="promo__registration-list">
-                    <li class="promo__registration-item">
-                        <a class="promo__registration-link" href="#">Log in</a>
-                    </li>
-                    <li class="promo__registration-item" id="second">
-                        <a class="promo__registration-link" href="#">Sign up</a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="promo__hero-list">
-                <li class="promo__hero-item">
-                    <h1 class="promo__hero-title">Share your holiday dreams</h1>
+    <header class="header">
+        <div class="container">
+            <ul class="header__button-list">
+                <li class="header__button-item">
+                    <button class="header__button" type button>Log in</button>
                 </li>
-                <li class="promo__hero-item">
-                    <h3 class="promo__hero-subtitle">And find the perfect partner to fullfill it</h3>
+                <li class="header__button-item">
+                    <button class="header__button sign-up" type button>Sign up</button>
                 </li>
-                <li class="promo__hero-item"><button class="promo__hero-button" type="button">Find your holiday
-                        partner</button></li>
             </ul>
+            <a class="header__logo" href="#">URLAUBSGLÜCK</a>
         </div>
     </header>
     <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Share your holiday dreams</h1>
+                <h3 class="hero__text">And find the perfect partner to fullfill it</h3>
+                <button class="hero__button">Find your holiday partner</button>
+            </div>
+        </section>
         <section class="partners">
             <h2 class="partners__title">Meet a partner for your best holiday</h2>
             <ul class="team__list">
