@@ -1,8 +1,12 @@
 .header {
-    height: 173px;
-    width: 177px;
+    color: $basicColor;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     margin-top: 19px;
     margin-bottom: 22px;
+    height: 173px;
 }
 
 .header .container {
@@ -10,7 +14,6 @@
     flex-direction: column;
     gap: 112px;
     align-items: center;
-    background-color: black;
 }
 
 .header__button-list {
@@ -21,7 +24,6 @@
 
 .header__button {
     text-align: center;
-    font-family: 'Montserrat' 'sans-serif';
     font-size: 14px;
     font-weight: 700;
     color: $basicColor;

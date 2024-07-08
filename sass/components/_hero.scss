@@ -1,11 +1,15 @@
-.hero {}
+.hero {
+    background-image: url("../../images/promo/desk-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .hero__title {
-    width: 500px;
     color: #FFF;
     text-align: center;
-    font-family: 'Montserrat';
-    font-size: 52px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -14,12 +18,12 @@
     color: #FFF;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 24.021px;
+    font-size: 24px;
     font-weight: 300;
 }
 
 .hero__button {
-    width: 228px;
+    width: 282px;
     height: 42px;
     background-color: #FF4E50;
     color: #FFF;
@@ -27,4 +31,5 @@
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 700;
+    border-radius: 20px;
 }

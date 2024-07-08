@@ -60,10 +60,14 @@ img {
   }
 }
 .header {
-  height: 173px;
-  width: 177px;
+  color: #FFF;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   margin-top: 19px;
   margin-bottom: 22px;
+  height: 173px;
 }
 
 .header .container {
@@ -71,7 +75,6 @@ img {
   flex-direction: column;
   gap: 112px;
   align-items: center;
-  background-color: black;
 }
 
 .header__button-list {
@@ -82,7 +85,6 @@ img {
 
 .header__button {
   text-align: center;
-  font-family: "Montserrat" "sans-serif";
   font-size: 14px;
   font-weight: 700;
   color: #FFF;
@@ -106,12 +108,18 @@ img {
   text-transform: uppercase;
 }
 
+.hero {
+  background-image: url("../../images/promo/desk-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .hero__title {
-  width: 500px;
   color: #FFF;
   text-align: center;
-  font-family: "Montserrat";
-  font-size: 52px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -120,12 +128,12 @@ img {
   color: #FFF;
   text-align: center;
   font-family: "Roboto";
-  font-size: 24.021px;
+  font-size: 24px;
   font-weight: 300;
 }
 
 .hero__button {
-  width: 228px;
+  width: 282px;
   height: 42px;
   background-color: #FF4E50;
   color: #FFF;
@@ -133,4 +141,5 @@ img {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
