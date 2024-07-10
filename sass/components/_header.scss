@@ -1,46 +1,62 @@
 .header {
-    color: $basicColor;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 20px;
+  color: $basicColor;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
 }
 
 .header .container {
-    display: flex;
-    flex-direction: column;
-    gap: 112px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  align-items: center;
 }
 
 .header__button-list {
-    display: flex;
-    gap: 4px;
-    align-items: center;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .header__button {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    color: $basicColor;
-    background-color: transparent;
-    gap: 9px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: $basicColor;
+  background-color: transparent;
+  gap: 9px;
 }
 
 .sign-up {
-    border: 2px solid $basicColor;
-    border-radius: 20px;
-    padding: 11px 15px;
+  border: 2px solid $basicColor;
+  border-radius: 20px;
+  padding: 11px 15px;
 }
 
 .header__logo {
-    color: $basicColor;
-    text-align: center;
-    font-family: 'Montserrat';
+  color: $basicColor;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 36px;
+  }
+
+  .header .container {
+    flex-direction: row-reverse;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .header__logo {
     font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  }
 }
