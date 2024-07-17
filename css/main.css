@@ -193,39 +193,34 @@ img {
 }
 /* partners */
 .partners {
-  margin-left: 52px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
+  padding-bottom: 56px;
 }
 
 .partners__title {
-  width: 288px;
   color: #333;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  margin-top: 60px;
-  margin-right: -200px;
-}
-
-.team__list {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 31px;
 }
 
 .team__list-item {
+  width: 217px;
   position: relative;
   text-align: center;
-  margin-top: 27px;
-  margin-right: 20px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team__photo {
   width: 120px;
-  height: 120px;
-  margin-left: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team__svg {
@@ -247,33 +242,49 @@ img {
 .team__name {
   color: #333;
   text-align: center;
-  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
-  margin-top: 16px;
 }
 
 .team__subtitle {
-  width: 250px;
   color: #666;
   text-align: center;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 300;
-  margin-top: 13px;
 }
 
 .partners__button {
   display: block;
   width: 195px;
   height: 43px;
-  background-color: #FFF;
-  border: 2px solid #FF4E50;
+  background-color: transparent;
+  border: 2px solid #ff4e50;
   border-radius: 20px;
-  color: #FF4E50;
+  color: #ff4e50;
   text-align: center;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
-  margin: 47px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .partners {
+    justify-content: center;
+    align-items: center;
+  }
+  .partners__title {
+    width: 431px;
+  }
+  .team__list {
+    height: 626px;
+    flex-wrap: wrap;
+    margin-top: 31px;
+  }
+  .team__list-item {
+    position: relative;
+    text-align: center;
+    margin-top: 27px;
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
